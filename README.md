@@ -1,4 +1,4 @@
-# Stenciljs With NextJS Sample
+# NextJS With Stenciljs Sample
 
 My sample demo web components made by [Stenciljs](https://stenciljs.com/) integrate to [Nextjs](https://nextjs.org/) project
 
