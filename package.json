@@ -1,9 +1,10 @@
 {
-  "name": "stenciljs-with-nextjs-sample",
+  "name": "nextjs-with-stenciljs-sample",
   "private": true,
   "scripts": {
     "build": "turbo build",
-    "dev": "turbo dev",
+    "dev": "turbo run dev --filter=web",
+    "build:packages": "turbo build --filter=./packages/*",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
